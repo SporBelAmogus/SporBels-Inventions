@@ -1,0 +1,53 @@
+{
+  "type": "ItemTurret",
+  "name": "Phantom",
+  "description": "A very long-range artillery cannon, to counter tanks.",
+  "size": 2,
+  "health": 920,
+  "maxAmmo": 20,
+  "reload": 300,
+  "range": 1200,
+  "coolantMultiplier": 1.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+  "targetAir": false,
+  "targetGround": true,
+  "recoilAmount": 5,
+  "shootShake": 3,
+  "inaccuracy": 1,
+  "restitution": 0.01,
+  "cooldown": 0.01,
+  "rotateSpeed": 5,
+  "shootSound": "shootEclipse",
+  "ammoTypes": {
+	"shell1": {
+      "type": "basicBulletType",
+      "damage": 90,
+	  "armorMultiplier": -1,
+	  "buildingDamageMultiplier": 0.2,
+	  "splashDamage": 10,
+      "hitEffect": "massiveExplosion",
+      "despawnEffect": "massiveExplosion",
+      "splashDamageRadius": 40,
+      "splashDamagePierce": false,
+      "speed": 20,
+	  "lifetime": 60,
+	  "width": 4,
+	  "height": 16,
+      "hitShake": 7,
+      "color": #dddddd,
+      "collidesAir": false,
+    },
+  },
+  "requirements": [
+    "graphite/80",
+	"steel/60",
+	"iron/60",
+	"copper/120"
+  ],
+  "category": "turret",
+  "research": "hail"
+}

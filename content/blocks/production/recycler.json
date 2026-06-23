@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Recycler",
+  "description": "A building that somehow can recycle waste into raw resources. Inneficient, but will produce uranium somehow.",
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.2,
+  "size": 3,
+  "health": 480,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 30,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 6,
+    "items": [
+      "waste/30",
+    ]
+  },
+  "requirements": [
+    "jetalloy/80",
+    "surge-alloy/40",
+    "steel/120",
+    "advancedmodule/10"
+  ],
+  "category": "crafting",
+  "research": "advancedmodulefactory",
+  "outputItems": [copper/4, lead/4, coal/3, sand/3, titanium/2, thorium/1, uranium/2, iron/2]
+}

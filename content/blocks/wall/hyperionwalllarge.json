@@ -1,0 +1,20 @@
+{
+  "type": "wall",
+  "name": "Large Hyperion Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 4960,
+  "armor": 5,
+  "chanceDeflect": 5,
+  "lightningChance": 0.25,
+  "lightningDamage": 2,
+  "lightningLength": 32,
+  "absorbLasers": true,
+  "flashHit": true,
+  "size": 2,
+  "requirements": [
+    "hyperion/24"
+  ],
+  "category": "defense",
+  "research": "hyperionwall",
+}
+ 

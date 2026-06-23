@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hyperion Condenser",
+  "description": "A factory that somehow produces Hyperion. Incredibly expensive. Recommended to get a duplicator as fast as possible to save costs.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.25,
+  "size": 3,
+  "health": 420,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 1800,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 20,
+    "items": [
+      "advancedmodule/4",
+      "enricheduranium/12",
+      "titanium/6",
+	  "steel/12",
+	  "jetalloy/16",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/40",
+    "surge-alloy/60",
+    "phase-fabric/20",
+    "depleteduranium/30"
+  ],
+  "category": "crafting",
+  "research": "uraniumfactory",
+  "outputItem": "hyperion/1"
+}
+ 

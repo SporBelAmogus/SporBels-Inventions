@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hyperion Liquefier",
+  "description": "Turns Hyperion into Liquid Hyperion",
+  "ambientSound": "loopFlux",
+  "ambientSoundVolume": 0.3,
+  "size": 2,
+  "health": 240,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "liquidCapacity": 20,
+  "itemCapacity": 5,
+  "craftTime": 1200,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 4,
+    "items": [
+	  "hyperion/1"
+    ]
+  },
+  "requirements": [
+    "advancedmodule/120",
+    "surge-alloy/200",
+    "phase-fabric/160",
+    "depleteduranium/40"
+	"hyperion/12"
+  ],
+  "category": "crafting",
+  "research": "hyperionduplicator",
+  "outputLiquid": "liquidhyperion/0.1"
+}
+ 

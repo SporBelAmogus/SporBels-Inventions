@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Jet Alloy Synthesizer",
+  "description": "A factory that creates a special light alloy.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.1,
+  "size": 2,
+  "health": 200,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 6,
+    "items": [
+      "thorium/1",
+      "plastanium/2",
+      "titanium/1",
+	  "aluminum/2",
+    ]
+  },
+  "requirements": [
+    "aluminum/80",
+    "graphite/60",
+    "silicon/60",
+    "thorium/40"
+  ],
+  "category": "crafting",
+  "research": "aluminumfactory",
+  "outputItem": "jetalloy/8"
+}
+ 

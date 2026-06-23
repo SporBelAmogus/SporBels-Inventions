@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hyperion Duplicator",
+  "description": "This thing makes use of a property from Hyperion to duplicate it. Needs multiple hyperion containers as a catalyst and the building constantly needs to be maintained with advanced modules.",
+  "ambientSound": "loopFlux",
+  "ambientSoundVolume": 0.3,
+  "size": 3,
+  "health": 500,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 24,
+  "craftTime": 7200,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 16,
+    "items": [
+      "advancedmodule/1",
+	  "hyperion/4"
+    ]
+  },
+  "requirements": [
+    "advancedmodule/80",
+    "surge-alloy/200",
+    "phase-fabric/160",
+    "depleteduranium/40"
+	"hyperion/8"
+  ],
+  "category": "crafting",
+  "research": "hyperionfactory",
+  "outputItem": "hyperion/5"
+}
+ 

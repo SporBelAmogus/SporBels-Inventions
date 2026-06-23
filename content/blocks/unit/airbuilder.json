@@ -1,0 +1,789 @@
+{
+  "type": "UnitFactory",
+  "name": "Air Garage",
+  "description": "A unit factory, which can create jet fighters."
+  "health": 360,
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "consumes": {
+    "power": 6
+  },
+  "plans": [
+    {
+      "unit": "mig15",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 120
+        },
+        {
+          "item": "copper",
+          "amount": 80
+        },
+        {
+          "item": "titanium",
+          "amount": 160
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 120
+        }
+      ],
+      "time": 3600
+    }
+	{
+      "unit": "mig17",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 150
+        },
+        {
+          "item": "copper",
+          "amount": 70
+        },
+        {
+          "item": "titanium",
+          "amount": 130
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "aluminum",
+          "amount": 170
+        }
+      ],
+      "time": 4200
+    },
+	{
+	  "unit": "mig19",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 10
+        },
+        {
+          "item": "copper",
+          "amount": 100
+        },
+        {
+          "item": "jetalloy",
+          "amount": 40
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 120
+        }
+      ],
+      "time": 4800
+    },
+	{
+      "unit": "mig21",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 20
+        },
+        {
+          "item": "copper",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 60
+        },
+		{
+          "item": "aluminum",
+          "amount": 120
+        }
+      ],
+      "time": 5400
+    },
+	{
+      "unit": "mig23",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 25
+        },
+        {
+          "item": "copper",
+          "amount": 100
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 100
+        }
+      ],
+      "time": 5400
+    },
+	{
+      "unit": "mig25",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 25
+        },
+        {
+          "item": "copper",
+          "amount": 120
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "aluminum",
+          "amount": 100
+        }
+      ],
+      "time": 6000
+    },
+	{
+      "unit": "mig29",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 30
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 40
+        },
+        {
+          "item": "jetalloy",
+          "amount": 100
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "aluminum",
+          "amount": 120
+        }
+      ],
+      "time": 7200
+    },
+	{
+      "unit": "mig31",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 50
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 80
+        }
+      ],
+      "time": 7200
+    },
+	{
+      "unit": "su27",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 60
+        },
+        {
+          "item": "jetalloy",
+          "amount": 90
+        },
+		{
+          "item": "plastanium",
+          "amount": 90
+        },
+		{
+          "item": "aluminum",
+          "amount": 100
+        }
+      ],
+      "time": 7200
+    },
+	{
+      "unit": "su30",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 50
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 100
+        },
+		{
+          "item": "plastanium",
+          "amount": 75
+        },
+		{
+          "item": "aluminum",
+          "amount": 90
+        }
+      ],
+      "time": 7800
+    },
+	{
+      "unit": "su35",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 45
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 100
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 60
+        },
+		{
+          "item": "hyperion",
+          "amount": 1
+        }
+      ],
+      "time": 9600
+    },
+	{
+      "unit": "su57",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 50
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 60
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "hyperion",
+          "amount": 5
+        }
+      ],
+      "time": 10800
+    },
+	{
+      "unit": "su75",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 50
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 40
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "plastanium",
+          "amount": 60
+        },
+		{
+          "item": "hyperion",
+          "amount": 5
+        }
+      ],
+      "time": 10800
+    },
+	{
+      "unit": "f86",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 140
+        },
+        {
+          "item": "copper",
+          "amount": 100
+        },
+        {
+          "item": "titanium",
+          "amount": 120
+        },
+		{
+          "item": "plastanium",
+          "amount": 60
+        },
+		{
+          "item": "aluminum",
+          "amount": 100
+        }
+      ],
+      "time": 3000
+    },
+	{
+      "unit": "f100",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 180
+        },
+        {
+          "item": "copper",
+          "amount": 120
+        },
+        {
+          "item": "titanium",
+          "amount": 160
+        },
+		{
+          "item": "plastanium",
+          "amount": 90
+        },
+		{
+          "item": "aluminum",
+          "amount": 170
+        }
+      ],
+      "time": 4200
+    },
+	{
+      "unit": "a10",
+      "requirements": [
+        {
+          "item": "lead",
+          "amount": 200
+        },
+        {
+          "item": "copper",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 100
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 160
+        }
+      ],
+      "time": 6000
+    },
+	{
+      "unit": "f4",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "copper",
+          "amount": 100
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 140
+        }
+      ],
+      "time": 6600
+    },
+	{
+      "unit": "f14",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 35
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 50
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "aluminum",
+          "amount": 100
+        }
+      ],
+      "time": 7200
+    },
+	{
+      "unit": "f15",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 60
+        },
+        {
+          "item": "jetalloy",
+          "amount": 75
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "aluminum",
+          "amount": 80
+        }
+      ],
+      "time": 8400
+    },
+	{
+      "unit": "f22",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 70
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "hyperion",
+          "amount": 10
+        }
+      ],
+      "time": 10800
+    },
+	{
+      "unit": "f22ft",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 80
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "supercomputer",
+          "amount": 2
+        },
+		{
+          "item": "hyperion",
+          "amount": 20
+        }
+      ],
+      "time": 14400
+    },
+	{
+      "unit": "fa18",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 30
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 60
+        }
+      ],
+      "time": 8400
+    },
+	{
+      "unit": "fa18e",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 50
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 100
+        },
+        {
+          "item": "jetalloy",
+          "amount": 80
+        },
+		{
+          "item": "plastanium",
+          "amount": 80
+        },
+		{
+          "item": "aluminum",
+          "amount": 80
+        }
+      ],
+      "time": 9000
+    },
+	{
+      "unit": "jas39gripen",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 20
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 50
+        },
+		{
+          "item": "plastanium",
+          "amount": 50
+        },
+		{
+          "item": "hyperion",
+          "amount": 1
+        }
+      ],
+      "time": 9600
+    },
+	{
+	  "unit": "nukejet",
+      "requirements": [
+        {
+          "item": "nuke",
+          "amount": 1
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 120
+        },
+        {
+          "item": "jetalloy",
+          "amount": 100
+        },
+		{
+          "item": "plastanium",
+          "amount": 100
+        },
+		{
+          "item": "hyperion",
+          "amount": 10
+        }
+      ],
+      "time": 12000
+    },
+	{
+	  "unit": "kamikazedrone",
+      "requirements": [
+        {
+          "item": "blast-compound",
+          "amount": 15
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 2
+        },
+        {
+          "item": "aluminum",
+          "amount": 15
+        },
+		{
+          "item": "plastanium",
+          "amount": 20
+        },
+		{
+          "item": "jetalloy",
+          "amount": 5
+        }
+      ],
+      "time": 3600
+    },
+	{
+      "unit": "fv42",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 60
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "supercomputer",
+          "amount": 4
+        },
+		{
+          "item": "hyperion",
+          "amount": 30
+        }
+      ],
+      "time": 14400
+    },
+	{
+      "unit": "fv6p1",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 40
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 60
+        },
+		{
+          "item": "supercomputer",
+          "amount": 6
+        },
+		{
+          "item": "hyperion",
+          "amount": 40
+        }
+      ],
+      "time": 16200
+    },
+	{
+      "unit": "fv84",
+      "requirements": [
+        {
+          "item": "missile",
+          "amount": 20
+        },
+        {
+          "item": "advancedmodule",
+          "amount": 80
+        },
+        {
+          "item": "jetalloy",
+          "amount": 40
+        },
+		{
+          "item": "supercomputer",
+          "amount": 12
+        },
+		{
+          "item": "hyperion",
+          "amount": 60
+        }
+      ],
+      "time": 18000
+    },
+  ],
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 600
+    },
+    {
+      "item": "graphite",
+      "amount": 600
+    },
+    {
+      "item": "titanium",
+      "amount": 400
+    },
+	{
+      "item": "aluminum",
+      "amount": 80
+    }
+  ],
+  "category": "units",
+  "research": {
+  "parent": "air-factory"
+              }
+}

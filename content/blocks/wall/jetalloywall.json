@@ -1,0 +1,14 @@
+{
+  "type": "wall",
+  "name": "Jet Alloy Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 800,
+  "armor": 3,
+  "size": 1,
+  "requirements": [
+    "jetalloy/6"
+  ],
+  "category": "defense",
+  "research": "aluminumwall",
+}
+ 

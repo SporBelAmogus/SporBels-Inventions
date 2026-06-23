@@ -1,0 +1,27 @@
+{
+  "type": "GenericCrafter",
+  "name": "Repurposer",
+  "description": "This thing somehow turns scrap into waste so you don't have to do the complicated process as usual.",
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.1,
+  "size": 1,
+  "health": 120,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 60,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 1,
+    "items": [
+      "scrap/2",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/2"
+  ],
+  "category": "crafting",
+  "research": "recycler",
+  "outputItems": [waste/1]
+}

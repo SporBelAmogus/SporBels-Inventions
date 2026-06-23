@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Nuclear Warhead Constructor",
+  "description": "A machine that builds a fission bomb, an extremely destructive device. Eats so much power you need a nuclear reactor to sustain this. [red]Prohibiting both your and the enemy side's production of nuclear warheads is reccomended and should be done at all costs.",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.25,
+  "size": 3,
+  "health": 600,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 50,
+  "craftTime": 7200,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 15,
+    "items": [
+      "enricheduranium/50",
+      "missile/15",
+      "advancedmodule/25",
+	  "thorium/50",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/40",
+    "surge-alloy/60",
+    "jetalloy/60",
+    "depleteduranium/40"
+  ],
+  "category": "crafting",
+  "research": "uraniumfactory",
+  "outputItems": [nuke/1, waste/50]
+}
+ 

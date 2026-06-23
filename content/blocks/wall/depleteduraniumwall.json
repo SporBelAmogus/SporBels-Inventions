@@ -1,0 +1,16 @@
+{
+  "type": "wall",
+  "name": "Depleted Uranium Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 1000,
+  "armor": 4,
+  "chanceDeflect": 4,
+  "flashHit": true,
+  "size": 1,
+  "requirements": [
+    "depleteduranium/6"
+  ],
+  "category": "defense",
+  "research": "jetalloywall",
+}
+ 

@@ -1,0 +1,23 @@
+{
+  "type": "UnitFactory",
+  "name": "Hyperion Nest",
+  "description": "A source of hyperion bugs"
+  "health": 1200,
+  "size": 3,
+  "hidden": true,
+  "plans": [
+    {
+      "unit": "hyperionbug",
+      "requirements": [
+      ],
+      "time": 1800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "unobtainium",
+      "amount": 100
+    },
+  ],
+  "category": "units",
+}

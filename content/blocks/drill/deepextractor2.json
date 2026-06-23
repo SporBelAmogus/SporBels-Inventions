@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Deep Extractor MKII",
+  "description": "A significantly improved version of the first Deep Extractor. Much faster and more efficient (it even can craft/gather some more advanced materials) but is larger, more expensive and requires hyperion instead of advanced modules.",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.625,
+  "size": 5,
+  "health": 820,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 70,
+  "craftTime": 1200,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 15,
+    "items": [
+      "hyperion/1",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/240",
+	"silicon/160"
+	"hyperion/40"
+  ],
+  "category": "production",
+  "research": "deepextractor1",
+  "outputItems": [copper/70, lead/70, scrap/65, sand/65, coal/65, titanium/60, thorium/55, waste/50, uranium/45, aluminum/40, graphite/35, silicon/30, pyratite/25, metaglass/25, iron/20]
+}

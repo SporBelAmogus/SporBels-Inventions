@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Tiny Nuclear Reactor",
+  "description": "Consumes Enriched Uranium to create a lot of power. Requires a lot of water.",
+  "size": 1,
+  "health": 100,
+  "ambientSound": "loopFlux",
+  "ambientSoundVolume": 0.25,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 2,
+  "itemDuration": 14400,
+  "explosionRadius": 4,
+  "explosionDamage": 50,
+  "explodeEffect": "massiveExplosion",
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "items": [
+      "enricheduranium/1",
+    ]
+	"liquids": [
+	  "water/0.1",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/10"
+  ],
+  "category": "power",
+  "research": "thorium-reactor",
+  "outputsPower": true,
+  "powerProduction": 6,
+}

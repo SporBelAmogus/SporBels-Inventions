@@ -1,0 +1,73 @@
+{
+  "type": "UnitFactory",
+  "name": "Primitive Builder",
+  "description": "Early-game unit producer. Recommended to replace as early as possible with something better."
+  "health": 360,
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "consumes": {
+    "power": 1
+  },
+  "plans": [
+    {
+      "unit": "infantry",
+      "requirements": [
+        {
+          "item": "flesh",
+          "amount": 2
+        },
+		{
+          "item": "lead",
+          "amount": 1
+        }
+      ],
+      "time": 450
+    }
+	{
+      "unit": "infantry2",
+      "requirements": [
+        {
+          "item": "flesh",
+          "amount": 2
+        },
+		{
+          "item": "iron",
+          "amount": 1
+        }
+      ],
+      "time": 575
+    }
+	{
+      "unit": "infantry3",
+      "requirements": [
+        {
+          "item": "flesh",
+          "amount": 2
+        },
+		{
+          "item": "steel",
+          "amount": 1
+        }
+      ],
+      "time": 600
+    }
+  ],
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "graphite",
+      "amount": 60
+    },
+  ],
+  "category": "units",
+  "research": {
+  "parent": "ground-factory"
+              }
+}

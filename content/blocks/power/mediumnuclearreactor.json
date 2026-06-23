@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Medium Nuclear Reactor",
+  "description": "Consumes Enriched Uranium to create a lot of power. Requires a lot of water.",
+  "size": 3,
+  "health": 900,
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.5,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 32,
+  "itemDuration": 900,
+  "explosionRadius": 16,
+  "explosionDamage": 200,
+  "explodeEffect": "massiveExplosion",
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "items": [
+      "enricheduranium/1",
+    ]
+	"liquids": [
+	  "water/1.6",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/60"
+  ],
+  "category": "power",
+  "research": "smallnuclearreactor",
+  "outputsPower": true,
+  "powerProduction": 96,
+}

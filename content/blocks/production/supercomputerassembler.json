@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Supercomputer Assembler",
+  "description": "Assembles supercomputers. Very expensive, consider if it is worth the benefits and the costs.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 1.0,
+  "size": 4,
+  "health": 1200,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "craftTime": 3600,
+  "hasLiquids": true,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 24,
+    "items": [
+      "advancedmodule/12",
+      "hyperion/4",
+      "enricheduranium/20",
+	  "depleteduranium/20",
+	  "surge-alloy/40",
+    ]
+    "liquid": {
+      "liquid": "liquidhyperion",
+      "amount": 0.25
+    }
+  },
+  "requirements": [
+    "advancedmodule/120",
+    "hyperion/60",
+  ],
+  "category": "crafting",
+  "research": "hyperionliquefier",
+  "outputItem": "supercomputer/1"
+}
+ 

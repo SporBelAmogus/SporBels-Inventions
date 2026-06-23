@@ -1,0 +1,13 @@
+{
+  "type": "wall",
+  "name": "Large Steel Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 2000,
+  "size": 2,
+  "requirements": [
+    "steel/24"
+  ],
+  "category": "defense",
+  "research": "steelwall",
+}
+ 

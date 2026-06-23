@@ -1,0 +1,13 @@
+{
+  "type": "wall",
+  "name": "Steel Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 500,
+  "size": 1,
+  "requirements": [
+    "steel/6"
+  ],
+  "category": "defense",
+  "research": "ironwall",
+}
+ 

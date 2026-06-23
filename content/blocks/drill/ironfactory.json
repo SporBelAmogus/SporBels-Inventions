@@ -1,0 +1,27 @@
+{
+  "type": "GenericCrafter",
+  "name": "Iron Extractor",
+  "description": "Creates a small amount of iron.",
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.2,
+  "size": 1,
+  "health": 80,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 10,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 0.2,
+  },
+  "requirements": [
+    "graphite/10"
+	"copper/20"
+	"lead/16"
+  ],
+  "category": "production",
+  "research": "pneumatic-drill",
+  "outputItems": [iron/1]
+}

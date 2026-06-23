@@ -1,0 +1,14 @@
+{
+  "type": "wall",
+  "name": "Large Aluminum Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 2720,
+  "armor": 2,
+  "size": 2,
+  "requirements": [
+    "aluminum/24"
+  ],
+  "category": "defense",
+  "research": "aluminumwall",
+}
+ 

@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Advanced Module Constructor",
+  "description": "A really complicated machine that creates really complicated machines.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.2,
+  "size": 3,
+  "health": 480,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 30,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 7,
+    "items": [
+      "jetalloy/2",
+      "surge-alloy/1",
+      "phase-fabric/1",
+	  "steel/3"
+    ]
+  },
+  "requirements": [
+    "jetalloy/80",
+    "surge-alloy/40",
+    "steel/120",
+    "thorium/40"
+  ],
+  "category": "crafting",
+  "research": "jetalloyfactory",
+  "outputItems": [advancedmodule/1, waste/5]
+}

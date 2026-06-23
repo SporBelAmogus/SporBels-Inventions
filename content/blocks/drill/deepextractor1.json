@@ -1,0 +1,28 @@
+{
+  "type": "GenericCrafter",
+  "name": "Deep Extractor MKI",
+  "description": "A very advanced deep drill that will mine raw resources from very deep in the ground. Does not need any ores to be placed on but it does require a tiny bit of advanced modules and a significant amount of power to work.",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.5,
+  "size": 4,
+  "health": 640,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "craftTime": 1800,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 12,
+    "items": [
+      "advancedmodule/1",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/200",
+	"silicon/120"
+  ],
+  "category": "production",
+  "research": "airblast-drill",
+  "outputItems": [copper/60, lead/60, scrap/55, sand/55, coal/55, titanium/50, thorium/45, waste/40, uranium/35, aluminum/30]
+}

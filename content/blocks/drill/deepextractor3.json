@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Deep Extractor MKIII",
+  "description": "The ultimate deep extractor. A significantly improved version of the second Deep Extractor. Much faster and more efficient (it even can craft/gather some more advanced materials than the previous version) but is larger, more expensive and requires supercomputers.",
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.75,
+  "size": 6,
+  "health": 1000,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 90,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 18,
+    "items": [
+      "supercomputer/1",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/320",
+	"hyperion/120"
+	"supercomputer/40"
+  ],
+  "category": "production",
+  "research": "deepextractor2",
+  "outputItems": [copper/90, lead/90, scrap/85, sand/85, coal/85, titanium/80, thorium/75, waste/70, uranium/65, aluminum/60, graphite/55, silicon/50, pyratite/45, metaglass/45, plastanium/40, blast-compound/35, surge-alloy/30, phase-fabric/30, jetalloy/25, iron/40, steel/30]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uranium Centrifuge",
+  "description": "A centrifuge that does centrifuge things with uranium and centrifuges it to create depleted and enriched uranium",
+  "ambientSound": "loopMachineSpin",
+  "ambientSoundVolume": 0.1,
+  "size": 2,
+  "health": 220,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 900,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 5,
+    "items": [
+      "uranium/2",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/20",
+    "jetalloy/40",
+    "steel/80",
+  ],
+  "category": "crafting",
+  "research": "recycler",
+  "outputItems": [enricheduranium/1, depleteduranium/1]
+}

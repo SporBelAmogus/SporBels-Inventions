@@ -1,0 +1,16 @@
+{
+  "type": "wall",
+  "name": "Large Depleted Uranium Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 4000,
+  "armor": 4,
+  "chanceDeflect": 4,
+  "flashHit": true,
+  "size": 2,
+  "requirements": [
+    "depleteduranium/24"
+  ],
+  "category": "defense",
+  "research": "depleteduraniumwall",
+}
+ 

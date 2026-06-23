@@ -1,0 +1,89 @@
+{
+  "type": "UnitFactory",
+  "name": "Ground Barracks",
+  "description": "A unit factory, which can create ground vehicles (such as tanks)."
+  "health": 360,
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "panzer4",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "steel",
+          "amount": 50
+        },
+        {
+          "item": "shell1",
+          "amount": 30
+        },
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "lt35",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "steel",
+          "amount": 30
+        },
+        {
+          "item": "shell1",
+          "amount": 15
+        },
+      ],
+      "time": 1800
+    },
+    {
+      "unit": "lt38",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "steel",
+          "amount": 30
+        },
+        {
+          "item": "shell1",
+          "amount": 15
+        },
+      ],
+      "time": 1800
+    },
+  ],
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 300
+    },
+    {
+      "item": "graphite",
+      "amount": 300
+    },
+    {
+      "item": "iron",
+      "amount": 200
+    },
+	{
+      "item": "steel",
+      "amount": 120
+    }
+  ],
+  "category": "units",
+  "research": {
+  "parent": "ground-factory"
+              }
+}

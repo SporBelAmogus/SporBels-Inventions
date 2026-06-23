@@ -1,0 +1,14 @@
+{
+  "type": "wall",
+  "name": "Aluminum Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 680,
+  "armor": 2,
+  "size": 1,
+  "requirements": [
+    "aluminum/6"
+  ],
+  "category": "defense",
+  "research": "titanium-wall",
+}
+ 

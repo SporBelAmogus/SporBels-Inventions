@@ -1,0 +1,20 @@
+{
+  "type": "wall",
+  "name": "Hyperion Wall",
+  "description": "Protects structures from enemy projectiles."
+  "health": 1240,
+  "armor": 5,
+  "chanceDeflect": 5,
+  "lightningChance": 0.25,
+  "lightningDamage": 2,
+  "lightningLength": 32,
+  "absorbLasers": true,
+  "flashHit": true,
+  "size": 1,
+  "requirements": [
+    "hyperion/6"
+  ],
+  "category": "defense",
+  "research": "depleteduraniumwall",
+}
+ 

@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Large Nuclear Reactor",
+  "description": "Consumes Enriched Uranium to create a lot of power. Requires a lot of water.",
+  "size": 4,
+  "health": 1600,
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 0.75,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 128,
+  "itemDuration": 225,
+  "explosionRadius": 32,
+  "explosionDamage": 400,
+  "explodeEffect": "massiveExplosion",
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "items": [
+      "enricheduranium/1",
+    ]
+	"liquids": [
+	  "water/6.4",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/100"
+  ],
+  "category": "power",
+  "research": "mediumnuclearreactor",
+  "outputsPower": true,
+  "powerProduction": 384,
+}

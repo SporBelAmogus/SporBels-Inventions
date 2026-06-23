@@ -1,0 +1,61 @@
+{
+  "type": "ItemTurret",
+  "name": "SAM Launcher",
+  "description": "A surface-to-air missile turret. Superior to the Skybreaker.",
+  "size": 3,
+  "health": 1400,
+  "maxAmmo": 6,
+  "ammoPerShot": 1,
+  "reload": 420,
+  "range": 600,
+  "coolantMultiplier": 1,
+  "consumes": {
+    "coolant": {
+      "amount": 0.5
+    }
+  },
+  "targetAir": true,
+  "targetGround": false,
+  "recoilAmount": 4,
+  "shootShake": 3,
+  "inaccuracy": 5,
+  "restitution": 0.01,
+  "cooldown": 0.01,
+  "rotateSpeed": 3,
+  "shootSound": "shootMissile",
+  "ammoTypes": {
+    "missile": {
+      "type": "basicBulletType",
+      "damage": 60,
+	  "armorMultiplier": 0.5
+      "status": "sabotaged",
+      "statusDuration": 300,
+      "speed": 30,
+	  "splashDamage": 60,
+      "hitEffect": "massiveExplosion",
+      "despawnEffect": "massiveExplosion",
+      "splashDamageRadius": 32,
+      "splashDamagePierce": true,
+	  "lifetime": 20,
+	  "width": 12,
+	  "height": 36,
+	  "makeFire": true,
+      "hitShake": 8,
+      "colorFront": #d4c69e,
+	  "colorBack": #d4c69e,
+	  "homingRange": 256,
+	  "homingPower": 0.1,
+      "collidesGround": false,
+	  "ammoMultiplier": 2,
+    },
+  },
+  "requirements": [
+    "titanium/300",
+	"aluminum/240",
+	"silicon/120",
+	"plastanium/120",
+	"thorium/40",
+  ],
+  "category": "turret",
+  "research": "skybreaker"
+}

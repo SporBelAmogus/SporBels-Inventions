@@ -1,0 +1,28 @@
+{
+  "type": "GenericCrafter",
+  "name": "Blood Press",
+  "description": "Somehow extracts blood from spore pods",
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.1,
+  "size": 1,
+  "health": 100,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 20,
+  "craftTime": 600,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 1,
+    "items": [
+      "spore-pod/1",
+    ]
+  },
+  "requirements": [
+    "silicon/20"
+  ],
+  "category": "crafting",
+  "research": "cultivator",
+  "outputLiquid": "blood/0.01"
+}
